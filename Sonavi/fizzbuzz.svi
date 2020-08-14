@@ -1,0 +1,7 @@
+count = 0;
+show = 0;
+fizz = {show = "fizz";};
+buzz = {show = "buzz"; {show = "fizzbuzz";}.if(count % 3 == 0);};
+r = {count = count + 1; show = count; fizz.if(count % 3 == 0); buzz.if(count % 5 == 0); print(show);};
+r.repeat(50);
+!END

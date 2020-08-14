@@ -1,0 +1,5 @@
+vars = {fb = 1;fba = 0;};
+vars.run;
+fibo = {fb = fb + fba; print(fb); fba = fba + fb; print(fba);};
+fibo.repeat(20);
+!END

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Package</actionName>
+            <displayName>Package</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Antlr4</actionName>
+            <displayName>Antlr4</displayName>
+            <goals>
+                <goal>antlr4:antlr4</goal>
+            </goals>
+        </action>
+    </actions>
