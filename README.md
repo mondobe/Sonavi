@@ -1,4 +1,7 @@
 # Sonavi
+
+---I'm working on a new language now, this is just to cut my teeth on. I don't have any plans to expand on this or make docs.---
+
 A programming language I'm working on in Java.
 
 NetBeans project upload, may or may not work in your IDE. Uses antlr4, so here's the license:
